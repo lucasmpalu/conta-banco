@@ -15,7 +15,7 @@ public class ContaBanco {
         String agencia = scanner.next();
 
         System.out.println("Por favor, digite o nome do Cliente:");
-        scanner.nextLine(); // Limpa o buffer antes de ler o nome completo
+        scanner.nextLine();
         String nomeCliente = scanner.nextLine();
 
         System.out.println("Por favor, digite o saldo inicial:");
